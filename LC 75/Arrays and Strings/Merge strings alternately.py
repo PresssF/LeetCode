@@ -5,6 +5,7 @@ def mergeAlternately( word1: str, word2: str) -> str:
     length_of_word2 = len(word2)
     great_length = length_of_word1 if length_of_word1 >= length_of_word2 else length_of_word2
     for i in range(great_length):
+        print(i)
         if counter < length_of_word1: merged_word += word1[i]        
         if counter < length_of_word2: merged_word += word2[i]        
         counter += 1
