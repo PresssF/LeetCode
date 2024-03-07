@@ -1,4 +1,3 @@
-
 def mergeAlternately( word1: str, word2: str) -> str:
     merged_word = ''
     counter = 0
@@ -10,7 +9,3 @@ def mergeAlternately( word1: str, word2: str) -> str:
         if counter < length_of_word2: merged_word += word2[i]        
         counter += 1
     return merged_word
-    
-word1 = 'ab'
-word2 = 'pqrs'
-print(mergeAlternately(word1, word2))
